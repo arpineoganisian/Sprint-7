@@ -1,5 +1,6 @@
 databaseChangeLog:
   - include:
-      file: init.sql
-
+      file: changeset/create_tables.sql
+  - include:
+      file: changeset/create_index.sql
 
